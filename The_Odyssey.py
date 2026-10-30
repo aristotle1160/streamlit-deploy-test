@@ -25,7 +25,7 @@ st.markdown(
 
 
 # 2. 최상단: 지중해 여정 지도 (컬럼을 활용해 이미지 크기를 한눈에 들어오게 축소)
-IMAGE_PATH = r"C:\workspace\streamlit_basic\data\odyssey.png"
+IMAGE_PATH = r"data/odyssey.png"
 
 # 좌우 여백(1.5)을 두고 중앙 컬럼(3)의 비율을 줄여 이미지 크기를 적절히 맞춥니다.
 col_left, col_center, col_right = st.columns([1.5, 3, 1.5])
